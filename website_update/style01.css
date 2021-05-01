@@ -1,0 +1,129 @@
+body {
+    background: #dedede;
+    font-family: Arial;
+    
+}
+.nav-left {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-start;
+    border: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+.li-left a, .li-right a{
+    display: flex;
+    float: left;
+    padding-right: 10px;
+    color: black
+}
+
+.li-left a, .li-right  a{
+    text-decoration: none
+    
+}
+.li-left a:hover, .li-right a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    border: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    padding-left: 0px;
+    color: black;
+    
+}
+
+.li-right {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* .row2 {
+    text-align: center;
+    display: flex;
+    float: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 400px;
+} */
+
+.third-top {
+    margin:0 auto;
+
+}
+
+.xyz {
+    display: flex;
+    padding-right: 20px;
+    color: black
+}
+
+nav {
+    height: 60px;
+    background: gray;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+nav ul li{
+    background: grey;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    
+} 
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background: rgb(87, 142, 163);
+}
+
+.ara {
+    position: absolute;
+    top: 60px;
+    display: none;
+    
+}
+
+nav ul li:hover > .ara{
+    display: block;
+}
+
+.ara-li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+} 
+
+.imgs {
+    margin: 60px 10px 15px 10px;
+    padding-left: 20px;
+}
